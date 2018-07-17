@@ -31,6 +31,11 @@ app.use(async (ctx, next) => {
 app.use(logger());
 app.use(bodyParser());
 
+router.get('/', async ctx => {
+    ctx.status = 200;
+    ctx.body = '<h2>Welcome from J-Box-Mailer</h2>';
+});
+
 function send(content) {
     const transporter = nodemailer.createTransport(smtpTransport({
         host: 'smtp.yandex.ru',
