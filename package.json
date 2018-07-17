@@ -4,9 +4,16 @@
   "main": "index.js",
   "author": "sam0sva1 <konstantus@live.ru>",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "js-yaml": "^3.12.0",
     "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
-    "nodemailer": "^4.6.7"
+    "nodemailer": "^4.6.7",
+    "nodemailer-smtp-transport": "^2.7.4"
   }
 }
