@@ -17,7 +17,7 @@ try {
 
 const app = new Koa();
 const router = new Router();
-const port = 9909;
+const port = config.port || 8080;
 
 app.use(async (ctx, next) => {
     try {
