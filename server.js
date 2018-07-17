@@ -15,8 +15,6 @@ try {
     process.exit(1);
 }
 
-console.log('config', config.email.password);
-
 const app = new Koa();
 const router = new Router();
 const port = 9909;
