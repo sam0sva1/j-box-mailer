@@ -1,0 +1,12 @@
+{
+  "name": "j-box-mailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sam0sva1 <konstantus@live.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "nodemailer": "^4.6.7"
+  }
+}
