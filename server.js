@@ -33,7 +33,7 @@ app.use(bodyParser());
 
 router.get('/', async ctx => {
     ctx.status = 200;
-    ctx.body = '<h2>Welcome from J-Box-Mailer</h2>';
+    ctx.body = '<h2>Welcome to J-Box-Mailer</h2>';
 });
 
 function send(content) {
